@@ -1,0 +1,72 @@
+{
+    "info": {
+        "name": "number_static_number",
+        "version": "1.0.0",
+        "category": "number",
+        "keywords": [
+            "number"
+        ],
+        "homepage": "https://answer.bogonets.com/",
+        "bugs": "https://answer.bogonets.com/",
+        "license": "Bogonet License",
+        "author": "wooruang",
+        "dependencies": [
+            {
+                "type": "pip",
+                "src": "numpy"
+            }
+        ],
+        "engines": ">=1.0.2",
+        "environment": {},
+        "titles": {
+            "en": "Static Number",
+            "ko": "고정 숫자"
+        },
+        "descriptions": {
+            "en": "Provide a static number",
+            "ko": "고정 숫자를 제공한다."
+        },
+        "documentation_mime": "text",
+        "documentations": {},
+        "meta": {}
+    },
+    "controls": {
+        "output": "number"
+    },
+    "props": [
+        {
+            "rule": "read_and_write",
+            "name": "value",
+            "default_value": "0",
+            "type": "double",
+            "required": true,
+            "valid": {},
+            "title": {
+                "en": "Value",
+                "ko": "숫자"
+            },
+            "help": {
+                "en": "Value",
+                "ko": "숫자"
+            }
+        },
+        {
+            "rule": "read_and_write",
+            "name": "type",
+            "default_value": "int32",
+            "type": "str",
+            "required": true,
+            "valid": {
+                "list": "int8;int16;int32;int64;float16;float32"
+            },
+            "title": {
+                "en": "Type",
+                "ko": "타입"
+            },
+            "help": {
+                "en": "Type",
+                "ko": "타입"
+            }
+        }
+    ]
+}
