@@ -1,0 +1,65 @@
+{
+    "info": {
+        "name": "datatype_converter",
+        "version": "1.0.0",
+        "category": "number",
+        "keywords": [
+            "number"
+        ],
+        "homepage": "https://answer.bogonets.com/",
+        "bugs": "https://answer.bogonets.com/",
+        "license": "Bogonet License",
+        "author": "wooruang",
+        "engines": ">=1.0.2",
+        "environment": {},
+        "titles": {
+            "en": "Datatype converter",
+            "ko": "자료형 변환기"
+        },
+        "descriptions": {
+            "en": "Data type conversion",
+            "ko": "자료형을 변환 한다."
+        },
+        "documentation_mime": "text",
+        "documentations": {},
+        "meta": {}
+    },
+    "controls": {
+        "input": "data",
+        "output": "result"
+    },
+    "props": [
+        {
+            "rule": "read_and_write",
+            "name": "default_value",
+            "default_value": "0.0",
+            "type": "float",
+            "required": true,
+            "valid": {},
+            "title": {
+                "en": "Default_value",
+                "ko": "Default_value"
+            },
+            "help": {
+                "en": "",
+                "ko": ""
+            }
+        },
+        {
+            "rule": "read_and_write",
+            "name": "enable_default",
+            "default_value": false,
+            "type": "bool",
+            "required": true,
+            "valid": {},
+            "title": {
+                "en": "Enable_default",
+                "ko": "Enable_default"
+            },
+            "help": {
+                "en": "",
+                "ko": ""
+            }
+        }
+    ]
+}
