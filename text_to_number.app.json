@@ -25,8 +25,8 @@
         "meta": {}
     },
     "controls": {
-        "input": "data",
-        "output": "result"
+        "input": "text",
+        "output": "number"
     },
     "props": [
         {
