@@ -60,6 +60,22 @@
                 "en": "",
                 "ko": ""
             }
+        },
+        {
+            "rule": "read_and_write",
+            "name": "filter_only_number",
+            "default_value": false,
+            "type": "bool",
+            "required": true,
+            "valid": {},
+            "title": {
+                "en": "Filter only Number",
+                "ko": "Filter only Number"
+            },
+            "help": {
+                "en": "",
+                "ko": ""
+            }
         }
     ]
 }
